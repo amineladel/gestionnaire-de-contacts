@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width> <!-- 600 -->
+    <height>528</height> <!-- 400 -->
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Carnet d'adresses</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableView" name="contactsTableView"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="searchLineEdit">
+      <property name="placeholderText">
+       <string>Rechercher...</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="addContactButton">
+      <property name="text">
+       <string>Ajouter un contact</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="editContactButton">
+      <property name="text">
+       <string>Modifier le contact</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="deleteContactButton">
+      <property name="text">
+       <string>Supprimer le contact</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
